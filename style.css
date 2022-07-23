@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg{
+    background-image: url(assets/hintergrund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.foto{
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    height: 100vh;
+    background-image: url(assets/hamed.gif);
+}
+.flexBox{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.dreieck{
+    width: 150px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.right, .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+
+}
+.right .dreieck{
+    background-image: url(assets/dreieck-rechts.png);
+      
+}
+.left .dreieck{
+    background-image: url(assets/dreieck-links.png);
+}
+.textLeft{
+    padding-left: 8px;
+}
+.textRight{
+    padding-right: 26px;
+}
+
+a{
+    font-weight: 600;
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* ---Lebenslauf---- */
+.KontaktHeader .kontaktfoto {
+    height: 200px;
+    width: 100%;
+    background-image: url(./assets/Screenshot.png);
+    
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    font-size: 24px;
+
+}
+.boxes{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 10px;
+}
+.lebenslaufMain{
+    width: 1000px;
+    margin: 80px auto;
+}
+.bilder{
+  display: inline-block;
+    width: 100%;
+    background-image: url(assets/hintergrund\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bilder img{
+    margin: 30px;
+    width: 300px;
+    }
+img:hover {
+    transform: scale(1.5);
+}
+.nav{
+    background-image: url(./assets/hintergrund.jpg);
+    width: 100%;
+    height: 318px;
+    display: flex;
+    padding: 74;
+    position: relative;
+ }
+p{
+    font-style: italic;
+    font-size: 50px;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header p {
+    color:rgb(22, 21, 21);
+}
+.ubermich-photo{
+    width: 100%;
+    height: 340px;
+    background-image: url(./assets/Screenshot\ \(51.png);
+    top: 0;
+    margin-left: 0%;
+}
+.ubermich-header{
+    width: 100%;
+    height:60px;
+    color: rgb(17, 17, 17);
+    font-size: 70px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.ubermich-p{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Einschreiben-p{
+    margin: 0 auto;
+ color: rgb(7, 7, 7);
+ font-size: 28px;
+}
+.Einschreiben-header{
+background-image: url(./assets/hintergrund.jpg);
+position: center;
+top: 0;
+height: 50vh;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.lebenslaufMain h1 {
+ color: black;
+    font-size: 87px;
+    text-align: center;
+    margin-bottom: 90px;
+}
